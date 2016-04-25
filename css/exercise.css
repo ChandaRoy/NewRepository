@@ -1,0 +1,295 @@
+<<<<<<< HEAD
+.container_24{padding-top: 20px;}
+.banner{
+background:url(../images/banner1.jpg) no-repeat;
+height:231px;
+clear:both;
+}
+.banner p h3{
+  
+}
+/********navigator*********/
+nav{float:right;
+padding-top: 20px;}
+nav ul li{
+  display:inline;
+
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 10px 10px;
+
+  color:#595959;
+  font-size: 14px;
+}
+nav a{
+  text-transform: lowercase;
+}
+nav ul li a:hover,.selected{
+  color:#000000;
+}
+li{
+  margin-left: 24px;
+}
+/********Header*********/
+header{
+  overflow: hidden;
+padding-top:20px;
+}
+header h1{
+  font-size:23px;
+  width:174px;
+  height:23px:
+  margin: 20px 10px 20px 10px;
+  float:left;
+
+}
+header .grid_6{
+  background-color: #585858;
+  height:231px ;
+}
+
+
+/********content*********/
+
+ h3{
+  letter-spacing: 1px;
+  color:white;
+  display: inline;
+  background-color:grey;
+}
+
+
+
+.main{
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color:#353535;
+}
+ .main h2{
+  font-size: 26px;
+text-transform: lowercase;
+border-bottom: 1px grey solid;
+padding-bottom: 20px;
+margin-bottom: 15px;
+line-height: 20px;
+
+}
+.grid_6 blockquote{
+  position:relative;
+  top:20px;
+}
+.main blockquote p:first-child:before{
+  content: '“';
+  color:grey;
+  font-size: 40px;
+  display: inline;
+  top:5px;
+  left:25px;
+  position: absolute;
+}
+.main blockquote p:first-child:after{
+  content: '”';
+  color:grey;
+  font-size: 40px;
+  display: inline;
+  float:right;
+}
+.main blockquote p{
+  padding-left: 50px;
+}
+/********micellenious*********/
+
+blockquote,blockquote p{
+  font-size:15px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+p{
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.grid_9{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+
+/********button*********/
+.button{
+  background:black;
+  color:grey;
+  padding: 5px;
+  margin-top:20px;
+  margin-bottom: 15px;
+}
+a{
+  text-decoration: none;
+  font-size: 14px;
+}
+.button:hover{
+  color:white;
+}
+.main .grid_9 p{
+  margin-top: 25px;
+}
+/********footer*********/
+.container_24 footer{
+  border-top: 1px grey solid;
+  padding: 20px;
+}
+footer{
+  clear:both;
+  border-top: 1px grey solid;
+
+}
+=======
+.container_24{padding-top: 20px;}
+.banner{
+background:url(../images/banner1.jpg) no-repeat;
+height:231px;
+clear:both;
+}
+
+/********navigator*********/
+nav{float:right;
+padding-top: 20px;}
+nav ul li{
+  display:inline;
+
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 10px 10px;
+
+  color:#595959;
+  font-size: 14px;
+}
+nav a{
+  text-transform: lowercase;
+}
+nav ul li a:hover,.selected{
+  color:#000000;
+}
+li{
+  margin-left: 24px;
+}
+/********Header*********/
+header{
+  overflow: hidden;
+padding-top:20px;
+}
+header h1{
+  font-size:23px;
+  width:174px;
+  height:23px:
+  margin: 20px 10px 20px 10px;
+  float:left;
+
+}
+header .grid_6{
+  background-color: #585858;
+  height:231px ;
+}
+
+
+/********content*********/
+
+ h3{
+  letter-spacing: 1px;
+  color:white;
+  display: inline;
+  background-color:grey;
+}
+
+
+
+.main{
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color:#353535;
+}
+ .main h2{
+  font-size: 26px;
+text-transform: lowercase;
+border-bottom: 1px grey solid;
+padding-bottom: 20px;
+margin-bottom: 15px;
+line-height: 20px;
+
+}
+.grid_6 blockquote{
+  position:relative;
+  top:20px;
+}
+.main blockquote p:first-child:before{
+  content: '“';
+  color:grey;
+  font-size: 40px;
+  display: inline;
+  top:5px;
+  left:25px;
+  position: absolute;
+}
+.main blockquote p:first-child:after{
+  content: '”';
+  color:grey;
+  font-size: 40px;
+  display: inline;
+  float:right;
+}
+.main blockquote p{
+  padding-left: 50px;
+}
+/********micellenious*********/
+
+blockquote,blockquote p{
+  font-size:15px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+p{
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.grid_9{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+
+/********button*********/
+.button{
+  background:black;
+  color:grey;
+  padding: 5px;
+  margin-top:20px;
+  margin-bottom: 15px;
+}
+a{
+  text-decoration: none;
+  font-size: 14px;
+}
+.button:hover{
+  color:white;
+}
+.main .grid_9 p{
+  margin-top: 25px;
+}
+/********footer*********/
+.container_24 footer{
+  border-top: 1px grey solid;
+  padding: 20px;
+}
+footer{
+  clear:both;
+  border-top: 1px grey solid;
+
+}
+>>>>>>> dc525640bd248c3f68b673ab290f07e82367e1b4
