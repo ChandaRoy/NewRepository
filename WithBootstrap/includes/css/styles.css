@@ -1,0 +1,197 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+.navbar{
+background: #f4511e;
+
+}
+
+.navbar-nav li a{
+color:white;
+}
+.navbar-nav li a:hover,.navbar-nav .active a{
+background: white;
+color:#f4511e;
+}
+.dropdown-menu li a {
+background: #f4511e;
+color:white;
+}
+.dropdown-menu li a:hover {
+background:white ;
+color:#f4511e;
+}
+/* --------------------------------------
+Layout
+-------------------------------------- */
+#hero_desc{
+  margin-top: 60px;
+  text-align: center;
+}
+#stories{
+background: pink;
+padding-bottom: 20px;
+}
+
+/* --------------------------------------
+Typography
+-------------------------------------- */
+
+
+
+/* --------------------------------------
+Navbar
+-------------------------------------- */
+#searchInput{
+  width: 200px;
+}
+.navbar-brand{
+  padding: 13px 15px;
+}
+
+/* --------------------------------------
+Carousel
+-------------------------------------- */
+#myCarousel{
+  margin-top: 60px;
+}
+.carousel-caption{
+  font-size: 24px;
+}
+.carousel-caption h4{
+  font-size: 30px;
+}
+
+#myCarousel .item{
+  height:400px;
+}
+#slide1{
+  background: url(../../images/carousel_md.jpg) top center no-repeat;
+}
+#slide2{
+  background: url(../../images/carousel_md_2.jpg) top center no-repeat;
+}
+#slide3{
+  background: url(../../images/carousel_md_3.jpg) top center no-repeat;
+}
+
+
+#features img{
+  height:157px;
+  width:275px;
+}
+/* --------------------------------------
+Global Styles
+-------------------------------------- */
+footer{
+background: black;
+}
+#foot{
+
+}
+/* --------------------------------------
+before footer
+-------------------------------------- */
+.row{
+padding-top: 50px;
+}
+#row1,#row3,#Read,#Discover{
+background:#27c1dd;
+}
+#row2,#row4,#Write,#Share{
+background: #1abc9c;
+}
+.row{
+margin-left: 0px;
+margin-right: 0px;
+}
+#signup{
+background: #f4511e ;
+
+}
+#signup p{
+color: #fff;
+font-size:20px ;
+font-family: Montserrat,sans-serif;
+}
+
+
+/* --------------------------------------
+Media Queries
+-------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  #myCarousel .item{height: 310px;}
+  #slide1{
+    background: url(../../images/carousel_sm.jpg) top center no-repeat;
+  }
+  #slide2{
+    background: url(../../images/carousel_sm_2.jpg) top center no-repeat;
+  }
+  #slide3{
+    background: url(../../images/carousel_sm_3.jpg) top center no-repeat;
+  }
+  .container{
+margin-left: 10px;
+margin-right: 10px;
+  }
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{height: 400px;}
+  #slide1{
+    background: url(../../images/carousel_md.jpg) top center no-repeat;
+  }
+  #slide2{
+    background: url(../../images/carousel_md_2.jpg) top center no-repeat;
+  }
+  #slide3{
+    background: url(../../images/carousel_md_3.jpg) top center no-repeat;
+  }
+#row1,#row2,#row3,#row4{
+display: none;
+}
+.container{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{height: 500px;}
+  #slide1{
+    background: url(../../images/carousel_lg.jpg) top center no-repeat;
+  }
+  #slide2{
+    background: url(../../images/carousel_lg_2.jpg) top center no-repeat;
+  }
+  #slide3{
+    background: url(../../images/carousel_lg_3.jpg) top center no-repeat;
+  }
+.carousel-caption h1{
+font-size: 72px;
+}
+.carousel-caption p{
+font-size: 36px;
+padding-bottom: 30px;
+}
+.carousel-caption .btn-group{
+padding-bottom: 30px;
+}
+}
